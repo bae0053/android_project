@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AddressExam</string>
+    <string name="addBTN">추가</string>
+    <string name="viweBTN">보기</string>
+    <string name="delBTN">삭제</string>
+    <string name="editname">이름</string>
+    <string name="phone">전화번호</string>
+    <string name="email">E-mail</string>
+    <string name="address">연락처</string>
+</resources>

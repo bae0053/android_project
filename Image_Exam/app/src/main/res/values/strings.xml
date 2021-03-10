@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Image_Exam</string>
+    <string name="start_view">화면을 터치하시오</string>
+    <string name="apple">APPLE</string>
+    <string name="banana">BANANA</string>
+    <string name="grape">GRAPE</string>
+    <string name="kiwie">KIWIE</string>
+    <string name="lemon">LEMON</string>
+    <string name="melon">MELON</string>
+    <string name="orange">ORANGE</string>
+    <string name="pineapple">PINEAPPLE</string>
+    <string name="tomato">TOMATO</string>
+    <string name="watermelon">WATERMELON</string>
+    <string name="full">전체화면</string>
+
+</resources>

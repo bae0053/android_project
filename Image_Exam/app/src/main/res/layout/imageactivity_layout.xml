@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    tools:context=".ImageActivity">
+
+    <ImageView
+        android:id="@+id/appleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/apple"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/applesample" />
+
+    <ImageView
+        android:id="@+id/bananaView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/banana"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/bananasample" />
+
+    <ImageView
+        android:id="@+id/grapeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/grape"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/grapesample" />
+
+    <ImageView
+        android:id="@+id/kiwieView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/kiwie"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/kiwiesample" />
+
+    <ImageView
+        android:id="@+id/lemonView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/lemon"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/lemonsample" />
+
+    <ImageView
+        android:id="@+id/melonView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/melon"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/melonsample" />
+
+    <ImageView
+        android:id="@+id/orangeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/orange"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/orangesample" />
+
+    <ImageView
+        android:id="@+id/pineappleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/pineapple"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/pineapplesample" />
+
+    <ImageView
+        android:id="@+id/tomatoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/tomato"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/tomatosample" />
+
+    <ImageView
+        android:id="@+id/watermelonView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:contentDescription="@string/watermelon"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+
+        app:srcCompat="@drawable/watermelonsample" />
+
+</GridLayout>
